@@ -18,7 +18,8 @@ import { LoginComponent } from '@page/login/login.component';
 import { EventComponent } from '@page/event/event.component';
 import { SpecialEventsComponent } from '@page/special-events/special-events.component';
 import { NameComponent } from '@page/name/name.component';
-import { ProfileComponent } from './pages/profile/profile.component';
+import { ProfileComponent } from '@page/profile/profile.component';
+import { GroupComponent } from '@page/group/group.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     EventComponent,
     SpecialEventsComponent,
     NameComponent,
-    ProfileComponent
+    ProfileComponent,
+    GroupComponent
   ],
   imports: [
     BrowserModule,

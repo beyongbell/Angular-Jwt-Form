@@ -6,6 +6,8 @@ import { SpecialEventsComponent } from '@page/special-events/special-events.comp
 import { LoginComponent } from '@page/login/login.component';
 import { RegisterComponent } from '@page/register/register.component';
 import { NameComponent } from '@page/name/name.component';
+import { ProfileComponent } from '@page/profile/profile.component';
+import { GroupComponent } from '@page/group/group.component';
 
 const routes: Routes = [
   {
@@ -33,6 +35,14 @@ const routes: Routes = [
   {
     path: 'name',
     component: NameComponent
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent
+  },
+  {
+    path: 'group',
+    component: GroupComponent
   }
 ];
 

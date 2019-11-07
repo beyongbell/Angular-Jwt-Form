@@ -13,7 +13,7 @@ export class NameComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // this.name.setValue('Nancy');
+    // this.name.setValue('Default Name');
   }
 
   updateName() {
