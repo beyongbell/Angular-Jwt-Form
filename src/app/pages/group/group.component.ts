@@ -22,7 +22,6 @@ export class GroupComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.updateProfile();
   }
 
   onSubmit() {
