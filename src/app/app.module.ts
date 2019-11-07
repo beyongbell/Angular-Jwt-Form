@@ -17,6 +17,7 @@ import { RegisterComponent } from '@page/register/register.component';
 import { LoginComponent } from '@page/login/login.component';
 import { EventComponent } from '@page/event/event.component';
 import { SpecialEventsComponent } from '@page/special-events/special-events.component';
+import { NameComponent } from '@page/name/name.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { SpecialEventsComponent } from '@page/special-events/special-events.comp
     RegisterComponent,
     LoginComponent,
     EventComponent,
-    SpecialEventsComponent
+    SpecialEventsComponent,
+    NameComponent
   ],
   imports: [
     BrowserModule,
