@@ -8,6 +8,7 @@ import { RegisterComponent } from '@page/register/register.component';
 import { NameComponent } from '@page/name/name.component';
 import { ProfileComponent } from '@page/profile/profile.component';
 import { GroupComponent } from '@page/group/group.component';
+import { BuilderComponent } from '@page/builder/builder.component';
 
 const routes: Routes = [
   {
@@ -43,6 +44,10 @@ const routes: Routes = [
   {
     path: 'group',
     component: GroupComponent
+  },
+  {
+    path: 'builder',
+    component: BuilderComponent
   }
 ];
 

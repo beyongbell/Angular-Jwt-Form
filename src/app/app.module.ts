@@ -20,6 +20,7 @@ import { SpecialEventsComponent } from '@page/special-events/special-events.comp
 import { NameComponent } from '@page/name/name.component';
 import { ProfileComponent } from '@page/profile/profile.component';
 import { GroupComponent } from '@page/group/group.component';
+import { BuilderComponent } from '@page/builder/builder.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { GroupComponent } from '@page/group/group.component';
     SpecialEventsComponent,
     NameComponent,
     ProfileComponent,
-    GroupComponent
+    GroupComponent,
+    BuilderComponent
   ],
   imports: [
     BrowserModule,
